@@ -14,7 +14,7 @@ This image's parent is the latest PHP/Apache image. See more at https://hub.dock
 Here's a Dockerfile that will work for your CakePHP Application.
 
 ```
-FROM marcellodesales/php-apache-cakephp
+FROM marcellodesales/php-apache-cakephp-mysql
 
 ADD . /var/www/html
 
