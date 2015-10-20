@@ -27,5 +27,11 @@ CMD ["apache2-foreground"]
 After that, just perform a regular build:
 
 ```sh
-docker build -t myPhpApp .
+docker build -t myCakePhpApp .
+```
+
+Then you simply run your app!
+
+```sh
+docker run -ti myCakePhpApp
 ```
